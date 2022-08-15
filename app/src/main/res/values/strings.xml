@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">TheSilentCartographer</string>
     <string name="title_activity_maps">MapsActivity</string>
+    <string name="eegeo_api_key">bdca9c353d2a0d4779fc7362e8ad6492</string>
+
 </resources>
