@@ -40,12 +40,12 @@ class ReplyFragment: BaseFragment<FragmentReplyBinding>(), OnMapsceneRequestComp
         val listener: ReplyFragment = this
 
         m_mapView!!.getMapAsync { map ->
-            m_eegeoMap = map
-            val mapsceneService = map.createMapsceneService()
-            mapsceneService.requestMapscene(
-                MapsceneRequestOptions("https://wrld.mp/63fcc9b")
-                    .onMapsceneRequestCompletedListener(listener)
-            )
+//            m_eegeoMap = map
+//            val mapsceneService = map.createMapsceneService()
+//            mapsceneService.requestMapscene(
+//                MapsceneRequestOptions("https://wrld.mp/63fcc9b")
+//                    .onMapsceneRequestCompletedListener(listener)
+//            )
         }
     }
 

@@ -6,13 +6,22 @@
     <group
         android:checkableBehavior="single">
         <item
-            android:id="@+id/googlemaps"
+            android:id="@+id/replyFragment"
             android:orderInCategory="1"
-            android:title="Google Maps" />
-        <item
-            android:id="@+id/replyheadquarters"
-            android:orderInCategory="2"
             android:title="Reply London Headquarters" />
+
+        <item
+            android:id="@+id/emptyFragment"
+            android:orderInCategory="2"
+            android:title="Empty Activity" />
+        <item
+            android:id="@+id/settingsFragment"
+            android:orderInCategory="3"
+            android:title="Settings" />
+        <item
+            android:id="@+id/contactFragment"
+            android:orderInCategory="4"
+            android:title="Contact Us" />
     </group>
 
 </menu>

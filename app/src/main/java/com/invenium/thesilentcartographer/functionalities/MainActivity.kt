@@ -12,6 +12,7 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import com.invenium.thesilentcartographer.R
 import com.invenium.thesilentcartographer.databinding.ActivityMainBinding
+import com.invenium.thesilentcartographer.utils.getAppVersionName
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.app_bar_main.*
 
@@ -38,6 +39,7 @@ class MainActivity : AppCompatActivity() {
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
+        appVersion.text = "v ${getAppVersionName()}"
 
     }
 
@@ -46,6 +48,16 @@ class MainActivity : AppCompatActivity() {
         return true
     }
 
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (navController.graph.startDestination) {
+            navController.currentDestination?.id -> return false
+            else -> if (item.itemId == android.R.id.home) {
+                onBackPressedDispatcher.onBackPressed()
+                return true
+            }
+        }
+        return item.onNavDestinationSelected(navController) || super.onOptionsItemSelected(item)
+    }
 
 
 

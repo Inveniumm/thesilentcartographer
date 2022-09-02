@@ -10,6 +10,13 @@
         android:name="com.invenium.thesilentcartographer.functionalities.ReplyFragment"
         android:label="Reply Victoriaa"
         tools:layout="@layout/fragment_reply">
+        <action
+            android:id="@+id/action_replyFragment_to_emptyFragment"
+            app:destination="@id/emptyFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/emptyFragment"
+        android:name="com.invenium.thesilentcartographer.functionalities.EmptyFragment"
+        android:label="EmptyFragment" />
 
 </navigation>
