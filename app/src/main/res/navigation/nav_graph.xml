@@ -11,12 +11,16 @@
         android:label="Reply Victoriaa"
         tools:layout="@layout/fragment_reply">
         <action
-            android:id="@+id/action_replyFragment_to_emptyFragment"
-            app:destination="@id/emptyFragment" />
+            android:id="@+id/action_replyFragment_to_settingsFragment2"
+            app:destination="@id/settingsFragment" />
     </fragment>
     <fragment
         android:id="@+id/emptyFragment"
         android:name="com.invenium.thesilentcartographer.functionalities.EmptyFragment"
         android:label="EmptyFragment" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.invenium.thesilentcartographer.functionalities.SettingsFragment"
+        android:label="SettingsFragment" />
 
 </navigation>

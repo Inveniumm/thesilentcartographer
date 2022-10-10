@@ -1,6 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">TheSilentCartographer</string>
-    <string name="title_activity_maps">MapsActivity</string>
-    <string name="eegeo_api_key">bdca9c353d2a0d4779fc7362e8ad6492</string>
+    <string name="language">Language</string>
+    <string name="notifications">Notifications</string>
+    <string name="notificationsbtn" translatable="false">Would you like to enable Push notifications</string>
 
 </resources>

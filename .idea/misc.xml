@@ -11,9 +11,10 @@
         <entry key="..\:/Users/ugur6/Documents/thesilentcartographer/app/src/main/res/menu/activity_main_drawer.xml" value="0.27109375" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.16893115942028986" />
         <entry key="app/src/main/res/layout/activity_main_drawer.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/app_bar_main.xml" value="0.12158054711246201" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.1213768115942029" />
         <entry key="app/src/main/res/layout/fragment_reply.xml" value="0.17239583333333333" />
-        <entry key="app/src/main/res/layout/fragment_settings.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_settings.xml" value="0.1634349030470914" />
         <entry key="app/src/main/res/layout/nav_header_main.xml" value="0.13360507246376813" />
         <entry key="app/src/main/res/menu/activity_main_drawer.xml" value="0.234375" />
       </map>

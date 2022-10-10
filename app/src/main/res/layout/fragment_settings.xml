@@ -1,7 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:background="@color/lightGrey"
+        android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:descendantFocusability="beforeDescendants">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingHorizontal="9dp"
+            android:paddingVertical="12dp">
+
+            <!-- Language -->
+            <LinearLayout
+                android:id="@+id/ll_language"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/H1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/language" />
+
+                <TextView
+                    android:id="@+id/tv_current_language"
+                    style="@style/H4Gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="English" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginVertical="14dp"
+                android:background="@color/darkGrey" />
+        </LinearLayout>
+
+
+        <TextView
+            style="@style/H1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="80dp"
+            android:layout_marginStart="10dp"
+            android:text="@string/notifications" />
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/sw_custom_notification"
+            style="@style/H4Gray"
+            android:layout_marginStart="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="100dp"
+            android:checked="false"
+            android:text="@string/notificationsbtn"
+            app:thumbTint="@color/switch_thumb_color"
+            app:trackTint="@color/switch_track_color" />
+
+
+
+        <View
+            android:layout_width="400dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_height="1dp"
+            android:layout_marginVertical="140dp"
+            android:background="@color/darkGrey" />
+
+    </RelativeLayout>
+    </ScrollView>
+    </FrameLayout>
+
+
+
+
+
+</layout>

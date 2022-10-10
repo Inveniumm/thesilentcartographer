@@ -12,4 +12,24 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="whiteColor">#FFFFFF</color>
+    <color name="blackColor">#000</color>
+    <color name="bgGrey">#EFEFEF</color>
+    <color name="lightGrey2">#E5E5E5</color>
+    <color name="coldGrey2">#F1F1F1</color>
+    <color name="coldGrey3">#E4E4E4</color>
+    <color name="coldGrey4">#C2C5CD</color>
+    <color name="coldGrey5">#A6AAB3</color>
+    <color name="coldGrey6">#8B8F99</color>
+    <color name="coldGrey7">#535760</color>
+    <color name="coldGrey8">#373941</color>
+    <color name="coldGrey9">#373941</color>
+    <color name="naturalGrey">#F4F4F4</color>
+    <color name="mediumGrey">#7E7E7E</color>
+    <color name="darkGrey">#5A5A5A</color>
+
+
+    <color name="standardOrange">#EB6A38</color>
+    <color name="lightOrange">#f19774</color>
+
 </resources>
